@@ -10,7 +10,7 @@ import { router } from './Routes/Routes.jsx';
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode basename="/starReactOne">
     <RouterProvider router={router}></RouterProvider>
   </StrictMode>,
 )
