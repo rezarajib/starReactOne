@@ -34,7 +34,7 @@ const Footer = () => {
   <div>
     <h6 class="footer-title text-white opacity-100 font-bold border-b-2 border-primary pb-1 mb-2">যোগাযোগ ও অফার</h6>
     <p class="text-sm text-gray-300 mb-2">📍 ঢাকা, বাংলাদেশ</p>
-    <p class="text-sm text-gray-300 mb-4">📞 +৮৮০ ১৭XXXXXXXX</p>
+    <p class="text-sm text-gray-300 mb-4">📞 +01819976046</p>
     <form class="form-control w-full">
       <div class="join">
         <input type="text" placeholder="আপনার ইমেইল" class="input input-bordered join-item input-sm text-black w-full" /> 
