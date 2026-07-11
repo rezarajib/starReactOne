@@ -1,11 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from '@tailwindcss/vite' // আপনার Tailwind v4 এর প্লাগইন
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/starReactOne/',
-  
-  
+  base: '/starReactOne/', // শুরুতে এবং শেষে অবশ্যই / থাকতে হবে
 })
